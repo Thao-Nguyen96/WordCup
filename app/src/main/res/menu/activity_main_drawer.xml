@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lich_dau"
+            android:icon="@drawable/time"
+            android:title="Lịch thi đấu" />
+        <item
+            android:id="@+id/nav_cau_thu"
+            android:icon="@drawable/cauthu"
+            android:title="Cầu thủ" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/bell"
+                android:title="About me" />
+        </menu>
+    </item>
+
+</menu>
